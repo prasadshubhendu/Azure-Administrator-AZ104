@@ -83,13 +83,17 @@ Install-WindowsFeature -name Web-Server -IncludeManagementTools
 ### Step 6: Test Web Server
 http://<Public-IP>
 
+
 ## 4. Architecture Diagram
+
 ![IIS installation](webserver-vm.png)
 
 ---
 
 
 ## 5. Clean-Up
+
+
 When done testing:
 
 Stop the VM to avoid costs.

@@ -88,12 +88,16 @@ sudo systemctl start nginx
 http://<Public-IP>
 
 ## 4. Architecture Diagram
+
+
 ![IIS installation](webserver-vm.png)
 
 ---
 
 
 ## 5. Clean-Up
+
+
 When done testing:
 
 Stop the VM to avoid costs.
