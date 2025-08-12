@@ -78,7 +78,7 @@ If you did not allow HTTP (80) during VM creation:
 #### Option 2: Using PowerShell
 ```powershell
 Install-WindowsFeature -name Web-Server -IncludeManagementTools
-
+```
 ---
 
 ### Step 6: Test Web Server

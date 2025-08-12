@@ -65,9 +65,10 @@ If you did not allow HTTP (80) during VM creation:
 ### Step 4: Connect to the VM via SSH
 - **If using SSH key:**
 ```bash
-ssh -i /path/to/private-key.pem azureuser@<Public-IP>
+	ssh -i /path/to/private-key.pem azureuser@<Public-IP> 
+```
 
-- **If using password authentication:**
+**If using password authentication:**
 		ssh azureuser@<Public-IP>
 
 ---
