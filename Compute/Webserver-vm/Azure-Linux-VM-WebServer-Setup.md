@@ -74,29 +74,32 @@ If you did not allow HTTP (80) during VM creation:
 ---
 
 ### Step 5: Install Web Server
-Option 1: Apache HTTP Server
-```sudo apt update
-sudo apt install apache2 -y
-sudo systemctl enable apache2
-sudo systemctl start apache2```
+	Option 1: Apache HTTP Server
+		```
+		sudo apt update
+		sudo apt install apache2 -y
+		sudo systemctl enable apache2
+		sudo systemctl start apache2
+		```
 
-Option 2: Nginx
-```sudo apt update
-sudo apt install nginx -y
-sudo systemctl enable nginx
-sudo systemctl start nginx```
+	Option 2: Nginx
+		```
+		sudo apt update
+		sudo apt install nginx -y
+		sudo systemctl enable nginx
+		sudo systemctl start nginx
+		```
 
+---
 
 ### Step 6: Test Web Server
 `http://<Public-IP>`
 
 ## 4. Architecture Diagram
 
-
 ![IIS installation](webserver-vm.png)
 
 ---
-
 
 ## 5. Clean-Up
 
