@@ -82,7 +82,7 @@ Install-WindowsFeature -name Web-Server -IncludeManagementTools
 ---
 
 ### Step 6: Test Web Server
-http://<Public-IP>
+ `http://<Public-IP>`
 
 
 ## 4. Architecture Diagram
