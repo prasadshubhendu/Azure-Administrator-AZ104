@@ -70,6 +70,8 @@ ssh -i /path/to/private-key.pem azureuser@<Public-IP>
 - **If using password authentication:**
 		ssh azureuser@<Public-IP>
 
+---
+
 ### Step 5: Install Web Server
 Option 1: Apache HTTP Server
 sudo apt update
