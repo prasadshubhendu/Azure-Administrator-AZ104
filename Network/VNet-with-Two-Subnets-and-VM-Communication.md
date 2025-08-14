@@ -9,10 +9,10 @@ This guide explains how to create the network architecture shown in the diagram,
 ---
 
 ## **Architecture Diagram**
-
-![vnet] (vnet_1.png)
+![Azure Network Diagram](vnet_1.png)
 
 ---
+
 ## **Architecture Overview**
 Internet --> VM-Subnet1 --> VM-Subnet2
 - **VNet:** `VNet-Demo`
